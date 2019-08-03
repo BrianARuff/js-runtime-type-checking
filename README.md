@@ -1,7 +1,8 @@
 # runtime-type-checking
+Check types at runtime in your JavaScript application. Compiles code down to ES3 from TypeScript 3.5.3
 
 ## How to require/import package
-```const Types = require('./Types.js');```
+```const Types = require('Types.js');```
 
 ### How to instantiate Types class
 ```const types = new Types();```

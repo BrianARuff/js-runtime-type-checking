@@ -1,7 +1,7 @@
 {
   "name": "js-runtime-type-checking",
-  "version": "1.0.2",
-  "description": "Check types at runtime in your JavaScript application.",
+  "version": "1.0.3",
+  "description": "Check types at runtime in your JavaScript application. Compiles code down to ES3 from TypeScript 3.5.3",
   "main": "index.js",
   "scripts": {},
   "repository": {
