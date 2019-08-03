@@ -8,3 +8,6 @@
 
 #### An example usage case of testing a string
 ```types.isString("hi")```
+
+##### Notes on package:
+Most of the data from this package is sourced from [here](https://webbjocke.com/javascript-check-data-types/) and places like SO.
