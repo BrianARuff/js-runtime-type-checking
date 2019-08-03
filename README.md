@@ -6,7 +6,7 @@
 ### How to instantiate Types class
 ```const types = new Types();```
 
-#### An example usage case of testing a string
+#### Example usage
 ```
 console.log(types.isString("hi"));
 console.log(types.isNumber(1));

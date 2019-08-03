@@ -1,6 +1,6 @@
 {
   "name": "js-runtime-type-checking",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Check types at runtime in your JavaScript application.",
   "main": "index.js",
   "scripts": {},
