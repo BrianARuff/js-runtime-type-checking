@@ -1,12 +1,12 @@
 {
-  "name": "runtime-type-checking",
+  "name": "runtime-typechecking",
   "version": "1.0.0",
   "description": "Check types at runtime in your JavaScript application.",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BrianARuff/runtime-type-checking.git"
+    "url": "git+https://github.com/BrianARuff/runtime-typechecking.git"
   },
   "keywords": [
     "runtime type checking",
@@ -18,9 +18,9 @@
   "author": "Brian Ruff",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/BrianARuff/runtime-type-checking/issues"
+    "url": "https://github.com/BrianARuff/runtime-typechecking/issues"
   },
-  "homepage": "https://github.com/BrianARuff/runtime-type-checking#readme",
+  "homepage": "https://github.com/BrianARuff/runtime-typechecking#readme",
   "dependencies": {},
   "devDependencies": {
     "@types/node": "^12.6.9",
