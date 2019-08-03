@@ -1,0 +1,42 @@
+var isString = require("./isString.js");
+var isNumber = require("./isNumber.js");
+var isArray = require("./isArray.js");
+var isFunction = require("./isFunction.js");
+var isObject = require("./isObject.js");
+var isNull = require("./isNull.js");
+var isUndefined = require("./isUndefined.js");
+var isBoolean = require("./isBoolean.js");
+var isRegex = require("./isRegex.js");
+var isError = require("./isError.js");
+var isDate = require("./isDate.js");
+var isSymbol = require("./isSymbol.js");
+var Types = /** @class */ (function () {
+    function Types() {
+    }
+    Types.prototype.isString = function (value) { return isString(value); };
+    ;
+    Types.prototype.isNumber = function (value) { return isNumber(value); };
+    ;
+    Types.prototype.isArray = function (value) { return isArray(value); };
+    ;
+    Types.prototype.isFunction = function (value) { return isFunction(value); };
+    ;
+    Types.prototype.isObject = function (value) { return isObject(value); };
+    ;
+    Types.prototype.isNull = function (value) { return isNull(value); };
+    ;
+    Types.prototype.isUndefined = function (value) { return isUndefined(value); };
+    ;
+    Types.prototype.isBoolean = function (value) { return isBoolean(value); };
+    ;
+    Types.prototype.isRegex = function (value) { return isRegex(value); };
+    ;
+    Types.prototype.isError = function (value) { return isError(value); };
+    ;
+    Types.prototype.isDate = function (value) { return isDate(value); };
+    ;
+    Types.prototype.isSymbol = function (value) { return isSymbol(value); };
+    ;
+    return Types;
+}());
+module.exports = Types;
